@@ -198,20 +198,23 @@ line-height: 38px;
 
 @media(max-width:1000px){
     .footer_four_in_one{
-        display: grid;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
         gap: 20px;
-        grid-template-columns: repeat(2, 2fr);
+
     }
 }
 
 @media(max-width:600px){
     .footer_four_in_one{
-        display: grid;
+        display: flex;
         gap: 20px;
-        grid-template-columns: repeat(1, 3fr);
+        flex-wrap: wrap;
+        justify-content: space-between;
+
     }
 }
 
-/* swiper */
 
-/* swiper */
+
